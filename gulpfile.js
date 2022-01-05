@@ -66,6 +66,10 @@ gulp.task('init-browser', () => {
           route: '/global-assets/img/Screen-Shot-2021-12-03-at-12.28-1.png',
           dir: './global_assets/img/Screen-Shot-2021-12-03-at-12.28-1.png',
         },
+        {
+          route: '/global_assets/img/Education.png',
+          dir: './global_assets/img/Education.png',
+        },
     ],
   });
 });

@@ -1,0 +1,132 @@
+.mobile-menu-wrapper{
+  display: none;
+}
+@media (max-width:767px){
+  .justify-content-between{
+      justify-content: space-between;
+  }
+  .new-mob-menu{
+      padding-top:25px;
+      padding-bottom: 36px;
+      position: absolute;
+      height:100%;
+      background-color: #3D4647;
+      transition: all ease-in .5s;
+      right: 0;
+      top:0;
+      width: 0;
+      height: 100vh;
+      
+  }
+  .new-mob-menu.open{
+     width:80%;
+    z-index: 6;
+    transition: all ease-in .5s;
+
+  }
+  .mobile-menu-wrapper{
+  display: block;
+  }
+  .close-mob-menu{
+      display: block;
+      height:15px;
+      width: 15px;
+      margin-bottom: 20px;
+      margin-right: 25px;
+      margin-left: auto;
+
+  }
+  .new-mob-search hr {
+      height: 1px;
+      width:80%;
+      background-color: #00e3f7;
+  }
+  .new-mob-search{
+      background: #fff;
+      position: relative;
+      border: 2px solid #3B4550;
+          border-top-width: medium;
+          border-right-width: medium;
+          border-bottom-width: medium;
+          border-left-width: medium;
+      padding-right: 10px;
+      border-radius: 7px;
+      z-index: 4;
+      display: inline-block;
+      min-width: 220px;
+      height: 20px;
+  }
+  .new-mob-search > .input input {
+      background: none;
+      border: none;
+      font-family: 'Raleway', Helvetica, sans-serif;
+      font-size: 13px;
+      color: #3B4550;
+      width: 220px;
+      height: 34px;
+      line-height: 34px;
+      padding: 0 10px;
+      outline: 0;
+      max-width: 0;
+      overflow: hidden;
+      -webkit-transition: 0.3s ease-out max-width;
+      -o-transition: 0.3s ease-out max-width;
+      transition: 0.3s ease-out max-width;
+      min-width: 220px;
+      line-height: 20px;
+      height: 20px;
+  }
+  .mob-menu-content ul{
+      list-style-type: none;
+      padding: 0;
+      margin: 0; 
+  }
+  .mob-menu-content {
+      padding-left: 49px;
+  }
+  .mob-menu-item a{
+      margin-top: 25px !important;
+      font-weight: 700 !important;
+      font-family: 'Raleway', Helvetica, sans-serif; ;
+      font-size: 15px !important;
+      line-height: 1.173 !important;
+      color:#fff !important;
+  }
+  .student-account-btn span{
+      font-weight: 700 ;
+      font-family: 'Raleway', Helvetica, sans-serif; 
+      font-size: 13px !important;
+      line-height: 1.173 !important;
+      color:#fff !important;
+      letter-spacing: 5%;
+      text-align: center;
+      margin-left: 3px;
+  }
+  .student-account-btn {
+     background-color:#617480;
+     padding:10px 17.07px;
+     margin-bottom: 15px;
+     margin-top: 28px;
+     border: none;
+  }
+  .request-trail {
+      background-color: #00890B;
+      border-color:#40AA1D;
+      border-width: 3px;
+      font-weight: 700 ;
+      font-family: 'Rajdhani', sans-serif;
+      font-size: 15px !important;
+      line-height: 1.276 !important;
+      color:#fff !important;
+      letter-spacing: 5%;
+      text-align: center;
+      /* width: 100%; */
+      padding: 10px 59px;
+      
+  }
+
+  .mob-menu-header{
+      padding-left: 25px;
+  }
+
+}
