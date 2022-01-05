@@ -31,6 +31,14 @@ gulp.task('init-browser', () => {
             dir: './global_assets/main.css',
         },
         {
+          route: '/global-assets/css/nav.css',
+          dir: './global_assets/nav.css',
+        },
+        {
+          route: '/global-assets/js/language_dropdown.js',
+          dir: './global_assets/language_dropdown.js',
+        },
+        {
             route: '/global-assets/js/main.min.js',
             dir: './global_assets/main.min.js',
         },
@@ -38,6 +46,11 @@ gulp.task('init-browser', () => {
           route: '/global-assets/img/pic.png',
           dir: './global_assets/img/pic.png',
         },
+        {
+          route: '/global-assets/img/site-icons/student_account.png',
+          dir: './global_assets/img/student_account.png',
+        },
+
         {
           route: '/global-assets/img/Video.png',
           dir: './global_assets/img/Video.png',

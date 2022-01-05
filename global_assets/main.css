@@ -2345,8 +2345,7 @@ body:not(.scroll-resize) .osh-light .osh-mm .hs-menu-depth-1.hs-item-has-childre
 .osh-mm .hs-menu-depth-1:hover > a,
 .osh-mm .hs-menu-depth-1.active > a,
 .osh-mm .hs-menu-depth-1.active-branch > a,
-.osh-mm .hs-menu-depth-1 > a:hover,
-.osh-mm .hs-menu-depth-1 > a:focus {
+.osh-mm .hs-menu-depth-1 > a:hover {
     color: #81BB5B !important
 }
     .osh-mm .hs-menu-depth-1.active > a:after,
@@ -8820,14 +8819,7 @@ font-size:35px;
     padding: 0;
     margin-right: 40px;
 }
-.osh-ctas .osh-cta2::before {
-    content: " ";
-    width: 15px;
-    background: #fff;
-    height: 15px;
-    margin-right: 2px;
-    background: url('/global-assets/img/site-icons/login.png');
-}
+
 .osh-lang .globe_class{
 height:40px;
 }
@@ -8848,7 +8840,4 @@ transform: translateY(-10%);
 }
 .header-container-wrapper{
 height:110px;
-}
-.osh-search svg path{
-stroke:#fff;
 }
